@@ -8,11 +8,11 @@ cursor cur_all is select * from sx_account;
     v_elapsed_nr number;
 begin
     v_start_nr:=dbms_utility.get_time();
-    #code goes here
+    -----code goes here
     
     
     
-    #end of code
+    -----end of code
     v_end_nr:=dbms_utility.get_time();
     v_elapsed_nr:=v_end_nr-v_start_nr;
     dbms_output.put_line('Elapsed;'||v_elapsed_nr/100||'secs.');
